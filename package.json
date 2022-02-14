@@ -1,0 +1,28 @@
+{
+  "name": "backend-kino",
+  "version": "1.0.0",
+  "description": "Kino site backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon .",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matodorovic/backend-kino.git"
+  },
+  "author": "Marta Anna Todorovic <martaannatodorovic@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matodorovic/backend-kino/issues"
+  },
+  "homepage": "https://github.com/matodorovic/backend-kino#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
