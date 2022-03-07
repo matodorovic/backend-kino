@@ -101,42 +101,6 @@ img {
 }
 
 /* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
-Author: Simon Ljungström and Mats Hemå */
-.cards {
-  background-color: #BB0000;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 30px 0 80px 0;
-}
-.cards .card-catagories {
-  margin: auto;
-  width: 80%;
-}
-.cards h1 {
-  padding: 10px 0 10px 30px;
-}
-.cards img {
-  box-shadow: 0px 0px 5px 15px #000;
-  height: 60vh;
-  margin: 0 2.5% 2% 2.5%;
-  width: 28%;
-}
-.cards li {
-  list-style: none;
-}
-.cards .popular {
-  display: flex;
-  flex-direction: column;
-}
-.cards .current {
-  display: flex;
-  flex-direction: column;
-}
-.cards .upcoming {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Arbetsmetodik och Agila projektmetoder - Ytterhogdal
 Author: Mats Hemå &  Marta Anna Todorovic */
 .about-us-nav {
   background-color: #000;
@@ -242,6 +206,79 @@ Author: Mats Hemå &  Marta Anna Todorovic */
     opacity: 1;
   }
 }
+.show-movie {
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  width: 70vw;
+  min-height: calc(100vh - 310px);
+}
+.show-movie .movie-title {
+  color: #000;
+  padding: 20px 0px 0px 20px;
+  margin: 0;
+}
+.show-movie .movie-intro {
+  padding: 0px 20px;
+}
+.show-movie .movie-img {
+  width: 50%;
+  box-shadow: 0px 0px 15px 1px black;
+  height: 400px;
+  width: auto;
+  margin: 20px;
+  float: none;
+}
+
+.error-box {
+  padding: 3rem;
+}
+.error-box .error-text {
+  margin: auto;
+  text-align: center;
+  color: #000;
+  margin: 20px;
+}
+
+.movie-box {
+  margin: auto;
+  padding: 20px;
+  width: 80vw;
+  background-color: #fff;
+  min-height: calc(100vh - 291px);
+}
+.movie-box .site-title {
+  font-size: 2rem;
+  color: #000;
+  margin: 0;
+  padding: 20px 0px 20px 20px;
+}
+.movie-box ul {
+  padding: 0px 0px 20px 20px;
+  margin: 0;
+}
+.movie-box .movies-element {
+  list-style-type: none;
+  padding: 5px 0px;
+}
+.movie-box .movies-element a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.movie-box .movies-element a:hover {
+  color: #BB0000;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+html {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
+  height: 100%;
+  background-color: #fff;
 }

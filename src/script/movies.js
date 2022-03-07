@@ -1,15 +1,15 @@
 import fetch from "node-fetch";
 
-const API_BASE = "http://lernia-kino-cms.herokuapp.com/api";
+const API_BASE = 'http://lernia-kino-cms.herokuapp.com/api';
 
 export async function loadMovies() {
-    const res = await fetch(API_BASE + "/movies/");
+    const res = await fetch(API_BASE + '/movies');
     const payload = await res.json();
     return payload.data;
 };
 
 export async function loadMovie(id) {
-    const res = await fetch(API_BASE + "/movie/" + id);
+    const res = await fetch(API_BASE + '/movies/' + id);
     const payload = await res.json();
-    return payload.data
+    return payload.data;
 };

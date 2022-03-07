@@ -2,11 +2,21 @@
 @import 'sections/footer';
 @import 'sections/nav';
 @import 'sections/logo';
-@import 'sections/cards';
 @import 'sections/aboutus';
 @import 'sections/hero';
 @import 'sections/importantInfo';
+@import 'sections/movie';
+@import 'sections/404.scss';
+@import 'sections/index';
+
+
+html {
+    height: 100vh;
+    font-family: $font-choice;
+}
 
 body {
     margin: 0;
+    height: 100%;
+    background-color: $secondary-color;
 }

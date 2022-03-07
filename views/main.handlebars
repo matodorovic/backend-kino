@@ -1,18 +1,18 @@
-        <section class="important-info"> 
-            <p class="important-info-text">Följande restriktioner för covid-19 gäller för denna biograf...</p> 
-        </section>
+<section class="important-info"> 
+    <p class="important-info-text">Följande restriktioner för covid-19 gäller för denna biograf...</p> 
+</section>
 
-        <section class="hero">
-            <div class="hero-image" alt="Red theater curtain"></div>
-        </section>    
+<section class="hero">
+    <div class="hero-image" alt="Red theater curtain"></div>
+</section>    
 
-        <div class="cards">
-            <div class="card-catagories">
-                <div class="upcoming">
-                    <h1>Kommande filmer</h1>
-                    <div class="upcoming-movieList"></div>
-                        <ul></ul>
-                     
-                </div>
-            </div>
-        </div>
+<section class="movie-box">
+    <h1 class="site-title">Filmer</h1>
+    <ul>
+        {{#each movies }}
+        <li class="movies-element">
+            <a href="/movies/{{ this.id }}" aria-label="{{ this.attributes.title }}">{{ this.attributes.title }}</a>
+        </li>
+        {{/each}}
+    </ul>
+</section>
